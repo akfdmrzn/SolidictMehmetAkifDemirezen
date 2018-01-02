@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="206" id="KGk-i7-Jjw" customClass="MoviesTableViewCell" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="601" height="206"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="601" height="206"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eaR-x6-VQ3">
+                        <rect key="frame" x="8" y="8" width="180.5" height="189.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NvX-G6-5Je" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="210.5" y="10.5" width="360.5" height="61.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJu-bg-LGe" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="210" y="86.5" width="360.5" height="37"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favori_bos" translatesAutoresizingMaskIntoConstraints="NO" id="MaF-b1-kS8">
+                        <rect key="frame" x="210" y="136" width="29" height="29.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="MaF-b1-kS8" secondAttribute="height" multiplier="1:1" id="30i-gC-JW3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add to Favourites" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PwG-pQ-Qj1" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="249" y="135.5" width="324.5" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqw-iR-8H2">
+                        <rect key="frame" x="210" y="136" width="29" height="29.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <action selector="btnImageTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SWl-D4-wIC"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWo-jv-OoB">
+                        <rect key="frame" x="249" y="135.5" width="324.5" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <action selector="btnTextTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="muQ-kw-lMG"/>
+                        </connections>
+                    </button>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yeni_etiket" translatesAutoresizingMaskIntoConstraints="NO" id="DWu-5B-3kW">
+                        <rect key="frame" x="8" y="8" width="42" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="DWu-5B-3kW" secondAttribute="height" multiplier="1:1" id="JBg-eu-xhU"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="LJu-bg-LGe" firstAttribute="trailing" secondItem="NvX-G6-5Je" secondAttribute="trailing" id="1g2-EK-PQ2"/>
+                    <constraint firstItem="MaF-b1-kS8" firstAttribute="top" secondItem="LJu-bg-LGe" secondAttribute="bottom" multiplier="1.1" id="24x-uK-MbW"/>
+                    <constraint firstItem="LJu-bg-LGe" firstAttribute="height" secondItem="NvX-G6-5Je" secondAttribute="height" multiplier="0.6" id="37q-1Q-y03"/>
+                    <constraint firstItem="NvX-G6-5Je" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.3" id="9Bi-ud-pr7"/>
+                    <constraint firstItem="DWu-5B-3kW" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.07" id="A3d-uf-9zq"/>
+                    <constraint firstItem="Iqw-iR-8H2" firstAttribute="leading" secondItem="MaF-b1-kS8" secondAttribute="leading" id="BOa-s4-M3i"/>
+                    <constraint firstItem="Iqw-iR-8H2" firstAttribute="bottom" secondItem="MaF-b1-kS8" secondAttribute="bottom" id="BrC-wm-7pR"/>
+                    <constraint firstItem="eaR-x6-VQ3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Go5-to-9oK"/>
+                    <constraint firstItem="iWo-jv-OoB" firstAttribute="bottom" secondItem="PwG-pQ-Qj1" secondAttribute="bottom" id="Hkv-5g-TnE"/>
+                    <constraint firstItem="PwG-pQ-Qj1" firstAttribute="bottom" secondItem="MaF-b1-kS8" secondAttribute="bottom" id="IKN-dt-jHL"/>
+                    <constraint firstItem="PwG-pQ-Qj1" firstAttribute="leading" secondItem="MaF-b1-kS8" secondAttribute="trailing" constant="10" id="JMs-85-QQ9"/>
+                    <constraint firstItem="LJu-bg-LGe" firstAttribute="top" secondItem="NvX-G6-5Je" secondAttribute="bottom" multiplier="1.2" id="JaM-BS-AMW"/>
+                    <constraint firstItem="DWu-5B-3kW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="K7M-ro-AQn"/>
+                    <constraint firstAttribute="bottom" secondItem="eaR-x6-VQ3" secondAttribute="bottom" constant="8" id="NzZ-pj-RzP"/>
+                    <constraint firstItem="DWu-5B-3kW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Tj2-6Y-Om0"/>
+                    <constraint firstItem="Iqw-iR-8H2" firstAttribute="trailing" secondItem="MaF-b1-kS8" secondAttribute="trailing" id="UJ5-ne-ZOE"/>
+                    <constraint firstItem="MaF-b1-kS8" firstAttribute="height" secondItem="LJu-bg-LGe" secondAttribute="height" multiplier="0.8" id="VJY-H6-XLa"/>
+                    <constraint firstItem="LJu-bg-LGe" firstAttribute="leading" secondItem="NvX-G6-5Je" secondAttribute="leading" id="VY2-TL-b0a"/>
+                    <constraint firstItem="MaF-b1-kS8" firstAttribute="leading" secondItem="LJu-bg-LGe" secondAttribute="leading" id="WI6-N7-CVI"/>
+                    <constraint firstItem="iWo-jv-OoB" firstAttribute="trailing" secondItem="PwG-pQ-Qj1" secondAttribute="trailing" id="Yjm-zu-LgT"/>
+                    <constraint firstItem="NvX-G6-5Je" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.6" id="ag0-WF-8oo"/>
+                    <constraint firstItem="PwG-pQ-Qj1" firstAttribute="width" secondItem="LJu-bg-LGe" secondAttribute="width" multiplier="0.9" id="bDH-FZ-nau"/>
+                    <constraint firstItem="eaR-x6-VQ3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ehC-Ay-kSo"/>
+                    <constraint firstItem="eaR-x6-VQ3" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.3" id="ggt-Ss-jFf"/>
+                    <constraint firstItem="PwG-pQ-Qj1" firstAttribute="top" secondItem="MaF-b1-kS8" secondAttribute="top" id="glb-Dp-W6v"/>
+                    <constraint firstItem="NvX-G6-5Je" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.3" id="mdS-My-dMQ"/>
+                    <constraint firstItem="iWo-jv-OoB" firstAttribute="top" secondItem="PwG-pQ-Qj1" secondAttribute="top" id="p3Z-oB-8u0"/>
+                    <constraint firstItem="iWo-jv-OoB" firstAttribute="leading" secondItem="PwG-pQ-Qj1" secondAttribute="leading" id="p41-bE-tCE"/>
+                    <constraint firstItem="NvX-G6-5Je" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="0.4" id="qeL-F9-vP6"/>
+                    <constraint firstItem="Iqw-iR-8H2" firstAttribute="top" secondItem="MaF-b1-kS8" secondAttribute="top" id="vY5-h3-Emd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="imageViewOfFav" destination="MaF-b1-kS8" id="deA-L5-15I"/>
+                <outlet property="imageViewOfNewBadge" destination="DWu-5B-3kW" id="YLl-go-wAe"/>
+                <outlet property="imageviewOfMovie" destination="eaR-x6-VQ3" id="dsJ-u1-BKD"/>
+                <outlet property="labelOfMovieName" destination="NvX-G6-5Je" id="ZTp-N2-Nwf"/>
+                <outlet property="labelOfReleaseDate" destination="LJu-bg-LGe" id="O5n-os-sdg"/>
+                <outlet property="labelStatuOfFav" destination="PwG-pQ-Qj1" id="lfa-d0-pIc"/>
+            </connections>
+            <point key="canvasLocation" x="-456.5" y="-138"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="favori_bos" width="15" height="15"/>
+        <image name="yeni_etiket" width="25" height="25"/>
+    </resources>
+</document>
